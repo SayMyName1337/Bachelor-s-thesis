@@ -1,0 +1,104 @@
+U => {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99}
+X={x| Recruit(x)=<No>} => {0, 2, 4, 5, 9, 10, 11, 14, 15, 17, 19, 20, 21, 27, 32, 38, 39, 40, 41, 44, 46, 49, 50, 53, 54, 58, 59, 60, 61, 64, 65, 69, 70, 72, 74, 77, 78, 80, 81, 82, 84, 85, 86, 87, 88, 92, 95, 96, 99}
+Va(Weather){'Sunny', 'Overcast', 'Rainy'}
+Va(Temperature){'79', '80', '89', '86', '65', '73', '82', '78', '60', '87', '67', '68', '74', '70', '84', '63', '66', '77', '62', '88', '83', '72', '90', '85', '76', '75', '61', '95', '69', '71', '59'}
+Va(Wind){'Tue', 'True', 'False'}
+Vd{'Yes', 'Tes', 'No'}
+Va[{'Sunny', 'Overcast', 'Rainy'}, {'79', '80', '89', '86', '65', '73', '82', '78', '60', '87', '67', '68', '74', '70', '84', '63', '66', '77', '62', '88', '83', '72', '90', '85', '76', '75', '61', '95', '69', '71', '59'}, {'Tue', 'True', 'False'}]
+IND(A)[[0, 14], [1, 58], [2, 71], [3, 7], [4, 66], [5], [6, 48], [8], [9], [10], [11], [12], [13], [15], [16], [17], [18], [19], [20, 94], [21], [22], [23, 95], [24, 51], [25], [26], [27], [28], [29], [30, 44, 84], [31], [32], [33, 42, 53], [34, 35, 39], [36, 37], [38, 40, 81], [41], [43, 99], [45], [46, 47], [49], [50], [52, 60], [54], [55, 98], [56], [57], [59], [61], [62], [63], [64], [65], [67, 68], [69], [70], [72], [73], [74], [75], [76], [77, 90], [78], [79], [80], [82], [83, 89], [85], [86], [87], [88], [91], [92], [93], [96], [97]]
+Object's of LowerXA =>{0, 5, 9, 10, 11, 14, 15, 17, 19, 21, 27, 32, 38, 40, 41, 49, 50, 54, 59, 61, 64, 65, 69, 70, 72, 74, 78, 80, 81, 82, 85, 86, 87, 88, 92, 96}
+Object's of UpperXA =>{0, 1, 2, 4, 5, 9, 10, 11, 14, 15, 17, 19, 20, 21, 23, 27, 30, 32, 33, 34, 35, 38, 39, 40, 41, 42, 43, 44, 46, 47, 49, 50, 52, 53, 54, 58, 59, 60, 61, 64, 65, 66, 69, 70, 71, 72, 74, 77, 78, 80, 81, 82, 84, 85, 86, 87, 88, 90, 92, 94, 95, 96, 99}
+POS(X){0, 5, 9, 10, 11, 14, 15, 17, 19, 21, 27, 32, 38, 40, 41, 49, 50, 54, 59, 61, 64, 65, 69, 70, 72, 74, 78, 80, 81, 82, 85, 86, 87, 88, 92, 96}
+BND(X){1, 2, 4, 20, 23, 30, 33, 34, 35, 39, 42, 43, 44, 46, 47, 52, 53, 58, 60, 66, 71, 77, 84, 90, 94, 95, 99}
+NEG(X){3, 6, 7, 8, 12, 13, 16, 18, 22, 24, 25, 26, 28, 29, 31, 36, 37, 45, 48, 51, 55, 56, 57, 62, 63, 67, 68, 73, 75, 76, 79, 83, 89, 91, 93, 97, 98}
+---------------------------------------------------------------------------------------------------------------------------------------
+Accuracy of Approximation: 0.571
+Quality of classification: 73.0 %
+Roughness: 27.0 %
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Production rules for positive region for decision value: <No>
+
+ [1]  IF  ( Weather == Sunny )  &  ( Temperature == 72 )  &  ( Wind == True ) 
+ [2]  IF  ( Weather == Sunny )  &  ( Temperature == 68 )  &  ( Wind == True ) 
+ [3]  IF  ( Weather == Overcast )  &  ( Temperature == 83 )  &  ( Wind == True ) 
+ [4]  IF  ( Weather == Rainy )  &  ( Temperature == 74 )  &  ( Wind == True ) 
+ [5]  IF  ( Weather == Rainy )  &  ( Temperature == 71 )  &  ( Wind == False ) 
+ [7]  IF  ( Weather == Sunny )  &  ( Temperature == 61 )  &  ( Wind == False ) 
+ [8]  IF  ( Weather == Overcast )  &  ( Temperature == 72 )  &  ( Wind == True ) 
+ [9]  IF  ( Weather == Rainy )  &  ( Temperature == 87 )  &  ( Wind == False ) 
+ [10]  IF  ( Weather == Sunny )  &  ( Temperature == 61 )  &  ( Wind == True ) 
+ [11]  IF  ( Weather == Sunny )  &  ( Temperature == 60 )  &  ( Wind == False ) 
+ [12]  IF  ( Weather == Rainy )  &  ( Temperature == 66 )  &  ( Wind == True ) 
+ [13]  IF  ( Weather == Rainy )  &  ( Temperature == 80 )  &  ( Wind == False ) 
+ [15]  IF  ( Weather == Rainy )  &  ( Temperature == 85 )  &  ( Wind == False ) 
+ [16]  IF  ( Weather == Rainy )  &  ( Temperature == 79 )  &  ( Wind == False ) 
+ [17]  IF  ( Weather == Rainy )  &  ( Temperature == 63 )  &  ( Wind == True ) 
+ [18]  IF  ( Weather == Sunny )  &  ( Temperature == 95 )  &  ( Wind == False ) 
+ [19]  IF  ( Weather == Rainy )  &  ( Temperature == 65 )  &  ( Wind == True ) 
+ [20]  IF  ( Weather == Rainy )  &  ( Temperature == 69 )  &  ( Wind == True ) 
+ [21]  IF  ( Weather == Sunny )  &  ( Temperature == 84 )  &  ( Wind == True ) 
+ [22]  IF  ( Weather == Sunny )  &  ( Temperature == 82 )  &  ( Wind == False ) 
+ [23]  IF  ( Weather == Rainy )  &  ( Temperature == 65 )  &  ( Wind == False ) 
+ [24]  IF  ( Weather == Overcast )  &  ( Temperature == 65 )  &  ( Wind == False ) 
+ [25]  IF  ( Weather == Sunny )  &  ( Temperature == 78 )  &  ( Wind == False ) 
+ [26]  IF  ( Weather == Rainy )  &  ( Temperature == 63 )  &  ( Wind == False ) 
+ [27]  IF  ( Weather == Sunny )  &  ( Temperature == 74 )  &  ( Wind == False ) 
+ [28]  IF  ( Weather == Rainy )  &  ( Temperature == 82 )  &  ( Wind == False ) 
+ [30]  IF  ( Weather == Rainy )  &  ( Temperature == 76 )  &  ( Wind == True ) 
+ [31]  IF  ( Weather == Sunny )  &  ( Temperature == 62 )  &  ( Wind == True ) 
+ [32]  IF  ( Weather == Rainy )  &  ( Temperature == 61 )  &  ( Wind == Tue ) 
+ [33]  IF  ( Weather == Overcast )  &  ( Temperature == 60 )  &  ( Wind == False ) 
+ [34]  IF  ( Weather == Sunny )  &  ( Temperature == 59 )  &  ( Wind == True ) 
+ [35]  IF  ( Weather == Overcast )  &  ( Temperature == 70 )  &  ( Wind == True ) 
+ [36]  IF  ( Weather == Overcast )  &  ( Temperature == 85 )  &  ( Wind == False ) 
+
+Production rules for negative region for decision value: <No>
+
+ [1]  IF  ( Weather == Rainy )  &  ( Temperature == 61 )  &  ( Wind == False ) 
+ [2]  IF  ( Weather == Overcast )  &  ( Temperature == 68 )  &  ( Wind == True ) 
+ [4]  IF  ( Weather == Rainy )  &  ( Temperature == 69 )  &  ( Wind == False ) 
+ [5]  IF  ( Weather == Overcast )  &  ( Temperature == 69 )  &  ( Wind == True ) 
+ [6]  IF  ( Weather == Overcast )  &  ( Temperature == 79 )  &  ( Wind == True ) 
+ [7]  IF  ( Weather == Rainy )  &  ( Temperature == 74 )  &  ( Wind == False ) 
+ [8]  IF  ( Weather == Sunny )  &  ( Temperature == 78 )  &  ( Wind == True ) 
+ [9]  IF  ( Weather == Overcast )  &  ( Temperature == 86 )  &  ( Wind == False ) 
+ [10]  IF  ( Weather == Sunny )  &  ( Temperature == 85 )  &  ( Wind == False ) 
+ [11]  IF  ( Weather == Sunny )  &  ( Temperature == 76 )  &  ( Wind == False ) 
+ [12]  IF  ( Weather == Sunny )  &  ( Temperature == 76 )  &  ( Wind == True ) 
+ [13]  IF  ( Weather == Overcast )  &  ( Temperature == 78 )  &  ( Wind == False ) 
+ [14]  IF  ( Weather == Rainy )  &  ( Temperature == 82 )  &  ( Wind == True ) 
+ [15]  IF  ( Weather == Rainy )  &  ( Temperature == 80 )  &  ( Wind == True ) 
+ [16]  IF  ( Weather == Overcast )  &  ( Temperature == 75 )  &  ( Wind == True ) 
+ [18]  IF  ( Weather == Rainy )  &  ( Temperature == 87 )  &  ( Wind == True ) 
+ [21]  IF  ( Weather == Sunny )  &  ( Temperature == 89 )  &  ( Wind == False ) 
+ [22]  IF  ( Weather == Sunny )  &  ( Temperature == 87 )  &  ( Wind == True ) 
+ [23]  IF  ( Weather == Sunny )  &  ( Temperature == 88 )  &  ( Wind == False ) 
+ [24]  IF  ( Weather == Sunny )  &  ( Temperature == 63 )  &  ( Wind == False ) 
+ [25]  IF  ( Weather == Overcast )  &  ( Temperature == 75 )  &  ( Wind == False ) 
+ [26]  IF  ( Weather == Rainy )  &  ( Temperature == 70 )  &  ( Wind == True ) 
+ [28]  IF  ( Weather == Overcast )  &  ( Temperature == 82 )  &  ( Wind == True ) 
+ [29]  IF  ( Weather == Overcast )  &  ( Temperature == 79 )  &  ( Wind == False ) 
+ [30]  IF  ( Weather == Rainy )  &  ( Temperature == 67 )  &  ( Wind == True ) 
+ [31]  IF  ( Weather == Rainy )  &  ( Temperature == 83 )  &  ( Wind == False ) 
+ [32]  IF  ( Weather == Rainy )  &  ( Temperature == 77 )  &  ( Wind == False ) 
+ [34]  IF  ( Weather == Overcast )  &  ( Temperature == 71 )  &  ( Wind == True ) 
+ [35]  IF  ( Weather == Sunny )  &  ( Temperature == 83 )  &  ( Wind == True ) 
+ [36]  IF  ( Weather == Sunny )  &  ( Temperature == 88 )  &  ( Wind == True ) 
+
+Production rules for boundry region for decision value: <No>
+
+ [1]  IF  ( Weather == Sunny )  &  ( Temperature == 60 )  &  ( Wind == True ) 
+ [2]  IF  ( Weather == Sunny )  &  ( Temperature == 70 )  &  ( Wind == True ) 
+ [3]  IF  ( Weather == Overcast )  &  ( Temperature == 80 )  &  ( Wind == True ) 
+ [4]  IF  ( Weather == Rainy )  &  ( Temperature == 84 )  &  ( Wind == True ) 
+ [5]  IF  ( Weather == Rainy )  &  ( Temperature == 88 )  &  ( Wind == True ) 
+ [6]  IF  ( Weather == Overcast )  &  ( Temperature == 63 )  &  ( Wind == True ) 
+ [7]  IF  ( Weather == Overcast )  &  ( Temperature == 87 )  &  ( Wind == False ) 
+ [8]  IF  ( Weather == Sunny )  &  ( Temperature == 80 )  &  ( Wind == True ) 
+ [12]  IF  ( Weather == Sunny )  &  ( Temperature == 90 )  &  ( Wind == False ) 
+ [14]  IF  ( Weather == Sunny )  &  ( Temperature == 90 )  &  ( Wind == True ) 
+ [16]  IF  ( Weather == Overcast )  &  ( Temperature == 80 )  &  ( Wind == False ) 
+ [22]  IF  ( Weather == Sunny )  &  ( Temperature == 73 )  &  ( Wind == False ) 
+
+Reduction:[]

@@ -1,0 +1,12 @@
+Big Yes Yes Fall
+Big No Yes Fall
+Big No No Raise
+Medium Yes Swr Yes Fall
+Medium Yes Hwr Yes Fall
+Medium Yes Kwr Yes Fall
+Medium Yes Kwr No Raise
+Low No Lwr No Fall
+Low Yes Lwr No Fall
+Low No Lwr Yes Fall
+Low Yes Swr No Raise
+Low Yes Kwr No Raise
